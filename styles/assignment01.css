@@ -118,7 +118,6 @@ header {
 
 
 /* 3rd Part Started (Productive Users Section) */
-
 .stats-section {
   width: 1167px;
   height: 313px;
@@ -155,3 +154,60 @@ header {
   color: #72737f;
 }
 /* 3rd Part Ended (Productive Users Section) */
+
+
+/* 4th Part Started (Users’ Feedback Section) */
+.review-section {
+  padding: 137px 150px;
+  margin: 0 auto;
+}
+
+.review-section-title {
+  font-size: 42px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 25px;
+}
+
+.review-container {
+  display: flex;
+  gap: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.review {
+  padding: 24px 24px;
+  border-radius: 14px;
+  flex: 1;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.10);
+}
+
+.stars{
+    margin-bottom: 24px;
+}
+
+.reviewer-img {
+  border-radius: 50%;
+}
+
+.reviewer-part {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.name {
+  color: #757575;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+
+.date {
+  color: #757575;
+  font-family: "Inter", sans-serif;
+}
+/* 4th Part Ended (Users’ Feedback Section) */
