@@ -21,9 +21,7 @@
 .btn:hover, .btn-primary:hover, .btn-msg:hover {
   background-color: yellow;
   color: #111;
-  box-shadow: 0 4px 15px rgba(183, 255, 1, 0.4);
 }
-
 
 
 /* 1st Part Started (Navbar & Banner Section) */
@@ -89,8 +87,11 @@ header {
     font-size: 65px;
     font-weight: bold;
     margin-bottom: 20px;
-    max-width: 800px;
+    text-align: center;
+}
 
+.navbar-content h1 span {
+  display: block;
 }
 /* 1st Part Ended (Navbar & Banner Section) */
 
@@ -168,6 +169,7 @@ header {
 .stat-box p {
   font-size: 20px;
   color: #72737f;
+  font-family: "Inter", sans-serif;
 }
 /* 3rd Part Ended (Productive Users Section) */
 
@@ -313,9 +315,9 @@ header {
   padding: 0;
   margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
-  gap: 30px;
+  gap: 48px;
 }
 .footer-links li{
     display: inline;
@@ -324,7 +326,6 @@ header {
   color: #111;
   font-size: 18px;
   text-decoration: none;
-  transition: color 0.3s ease;
 }
 /* 6th Part Ended (Footer Section) */
 
