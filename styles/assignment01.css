@@ -17,6 +17,13 @@
     font-style: normal;
 }
 
+/* Hover Effects for All Buttons */
+.btn:hover, .btn-primary:hover, .btn-msg:hover {
+  background-color: yellow;
+  color: #111;
+  box-shadow: 0 4px 15px rgba(183, 255, 1, 0.4);
+}
+
 
 
 /* 1st Part Started (Navbar & Banner Section) */
