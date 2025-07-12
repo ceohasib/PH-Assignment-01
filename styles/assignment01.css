@@ -1,40 +1,45 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
+
 .raleway-normal {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .inter-normal {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 
-
-/* 1st Part */
+/* 1st Part Started (Navbar & Banner Section) */
 header {
-  width: 100%;
-  height: 100vh;
+    width: 100%;
+    height: 100vh;
 }
+
+/* Background Image */
 .bg-img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-.navbar{
+
+.navbar {
     position: relative;
     font-family: "Raleway", sans-serif;
     height: 100vh;
     overflow: hidden;
 }
+
+/* Navigation Bar */
 .navbar-items {
     position: relative;
     top: 40px;
@@ -43,34 +48,70 @@ header {
     display: flex;
     justify-content: space-between;
 }
-.navbar-title {
-  font-size: 34px;
-  font-weight: bolder;
-  color: #4E47FF;
-  font-family: "Inter", sans-serif;
-}
-.navbar-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: black;
-  max-width: 800px;
-  
-}
-.navbar-content h1 {
-  font-size: 3em;
-  margin-bottom: 20px;
-} 
-.btn {
-  padding: 12px 25px;
-  font-size: 1.1rem;
-  background-color:#4E47FF;
-  color:white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
-/* 1st Part */
 
+.navbar-title {
+    font-size: 34px;
+    font-weight: bolder;
+    color: #4E47FF;
+    font-family: "Inter", sans-serif;
+}
+
+.btn {
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Content */
+.navbar-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    max-width: 800px;
+}
+
+.navbar-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+/* 1st Part Ended (Navbar & Banner Section) */
+
+
+/* 2nd Part Started (Action Section) */
+.action-wc-mini {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 116px 160px 110px 140px;
+    font-family: "Raleway", sans-serif;
+}
+
+/* Content */
+.action-title {
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 23px;
+}
+
+.action-description {
+    font-size: 24px;
+    max-width: 470px;
+    margin-bottom: 23px;
+    color: #252432;
+}
+
+/* WC-Mini-Image */
+.wc-mini-img {
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+/* 2nd Part Ended (Action Section) */
