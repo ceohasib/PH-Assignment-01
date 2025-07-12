@@ -18,6 +18,7 @@
 }
 
 
+
 /* 1st Part Started (Navbar & Banner Section) */
 header {
     width: 100%;
@@ -74,12 +75,15 @@ header {
     transform: translate(-50%, -50%);
     text-align: center;
     color: black;
-    max-width: 800px;
+    padding: 0 20px;   
 }
 
 .navbar-content h1 {
-    font-size: 3em;
+    font-size: 65px;
+    font-weight: bold;
     margin-bottom: 20px;
+    max-width: 800px;
+
 }
 /* 1st Part Ended (Navbar & Banner Section) */
 
@@ -91,6 +95,7 @@ header {
     align-items: center;
     padding: 116px 160px 110px 140px;
     font-family: "Raleway", sans-serif;
+    background-color:#f5f8ff;
 }
 
 /* Content */
@@ -118,6 +123,10 @@ header {
 
 
 /* 3rd Part Started (Productive Users Section) */
+
+.statistics {
+    background-color:#f5f8ff;
+}
 .stats-section {
   width: 1167px;
   height: 313px;
@@ -150,7 +159,7 @@ header {
 }
 
 .stat-box p {
-  font-size: 20;
+  font-size: 20px;
   color: #72737f;
 }
 /* 3rd Part Ended (Productive Users Section) */
@@ -158,8 +167,9 @@ header {
 
 /* 4th Part Started (Users’ Feedback Section) */
 .review-section {
-  padding: 137px 150px;
+  padding: 137px 150px 0 150px;
   margin: 0 auto;
+  background-color:#f5f8ff;
 }
 
 .review-section-title {
@@ -189,6 +199,16 @@ header {
     margin-bottom: 24px;
 }
 
+.review-title {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.review-description {
+    font-family: "Inter", sans-serif;
+}
+
 .reviewer-img {
   border-radius: 50%;
 }
@@ -211,3 +231,93 @@ header {
   font-family: "Inter", sans-serif;
 }
 /* 4th Part Ended (Users’ Feedback Section) */
+
+
+/* 5th Part Started (Message Section) */
+.message-section {
+    padding: 100px 150px 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#f5f8ff;
+}
+.message-column{
+    width:50%;
+}
+.section-title{
+    font-size: 97px;
+    font-weight: bold;
+    max-width: 516px;
+    font-family: "Raleway", sans-serif;
+}
+.message-section input[type="text"], .message-section input[type="email"], .message-section textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 20px;
+}
+
+.btn-msg {
+    width: 100%;
+    height: 64px;
+    font-size: 1.1rem;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 71px;
+}
+.message-column p{
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 10px;
+}
+/* 5th Part Ended (Message Section) */
+
+/* 6th Part Started (Footer Section) */
+.footer{
+    text-align: center;
+    padding:  104px 455px 147px 454px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.footer-title {
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #3E39CC;
+}
+.footer-description {
+    font-size: 20px;
+    color: #8987A1;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+}
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.footer-links li{
+    display: inline;
+}
+.footer-links li a {
+  color: #111;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+/* 6th Part Ended (Footer Section) */
+
