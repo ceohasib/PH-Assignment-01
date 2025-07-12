@@ -115,3 +115,43 @@ header {
     border-radius: 48px;
 }
 /* 2nd Part Ended (Action Section) */
+
+
+/* 3rd Part Started (Productive Users Section) */
+
+.stats-section {
+  width: 1167px;
+  height: 313px;
+  background-color: #E5E7FF;
+  text-align: center;
+  margin: 0 auto;
+  padding: 55px 155px;
+  border-radius: 24px;
+}
+
+.user-title {
+  font-size: 38px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  color: #252432;
+  margin-bottom: 40px;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.stat-box h1 {
+  font-size: 80px;
+  font-weight: bold;
+  color: #3E39CC;
+  font-family: "Inter", sans-serif;
+}
+
+.stat-box p {
+  font-size: 20;
+  color: #72737f;
+}
+/* 3rd Part Ended (Productive Users Section) */
